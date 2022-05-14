@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "6251174c-0f8b-4faa-baa7-67ceb8843782",
+		"name": "Quran API",
+		"description": "test alterra sesi1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Lists all available editions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Lists all audio editions in english of the versebyverse type",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Returns the requested juz from a particular edition",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://api.alquran.cloud/v1/juz/30/en.asad",
+					"protocol": "http",
+					"host": [
+						"api",
+						"alquran",
+						"cloud"
+					],
+					"path": [
+						"v1",
+						"juz",
+						"30",
+						"en.asad"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Returns the list of Surahs in the Quran",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Returns an ayah for a given edition (ayat kursi)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Returns ayahs that match a keyword in a given edition or language",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
